@@ -17,7 +17,7 @@ public class userService{
 	userMapper userMapper;
 
 	/**
-	 * 사용자 로그인 처리
+	 * User Login
 	 * 
 	 * @param loginModel
 	 * @return
@@ -61,8 +61,8 @@ public class userService{
 
 
     /**
-     * 암호변경
-     * @param model 암호변경데이터 모델
+     * Change PW
+     * @param model Change pw data model
      * @return
      */
     public ReturnMsg changePassword(PasswordReqModel model) {
