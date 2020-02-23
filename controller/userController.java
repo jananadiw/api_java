@@ -9,9 +9,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import kr.co.corners.model.ReturnMsg;
-import kr.co.corners.model.SiteModel;
-import kr.co.corners.service.SiteService;
+
+import com.example.test.model.ReturnMsg
+import com.example.test.model.SiteModel;
+import com.example.test.model.SiteService;
 
 @RestController
 @RequestMapping("Site")
