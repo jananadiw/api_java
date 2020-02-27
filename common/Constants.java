@@ -1,4 +1,4 @@
-package kr.co.corners.common;
+package com.example.test.common;
 
 /* 
  * 상수모음
